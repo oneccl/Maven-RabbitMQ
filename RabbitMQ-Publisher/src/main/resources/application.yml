@@ -1,0 +1,17 @@
+# 应用名称
+spring:
+  application:
+    name: RabbitMQ-Publisher
+
+  rabbitmq:
+    host: 192.168.150.101  # 主机
+    port: 5672             # 端口，5672一般用于信息传递，15672用于web管理
+    username: admin        # 用户名
+    password: admin        # 密码
+    virtual-host: /        # 虚拟主机，可不设置
+
+server:
+  port: 8081
+
+
+
